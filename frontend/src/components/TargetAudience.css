@@ -1,0 +1,66 @@
+.target-audience {
+  padding: 80px 20px;
+  background: linear-gradient(135deg, #2563eb 0%, #1e40af 100%);
+  color: white;
+}
+
+.target-audience .container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.target-audience h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+}
+
+.audience-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.audience-item {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 20px 24px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  font-size: 1.1rem;
+  backdrop-filter: blur(10px);
+  transition: all 0.3s ease;
+}
+
+.audience-item:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateX(8px);
+}
+
+.check-icon {
+  background: #10b981;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  flex-shrink: 0;
+}
+
+@media (max-width: 768px) {
+  .target-audience {
+    padding: 60px 20px;
+  }
+
+  .target-audience h2 {
+    font-size: 1.5rem;
+  }
+
+  .audience-item {
+    padding: 16px 20px;
+    font-size: 1rem;
+  }
+}
