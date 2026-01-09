@@ -1,0 +1,95 @@
+.comparison {
+  padding: 80px 20px;
+  background: white;
+}
+
+.comparison .container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.comparison h2 {
+  font-size: 2rem;
+  color: #1e293b;
+  margin-bottom: 40px;
+}
+
+.table-wrapper {
+  overflow-x: auto;
+}
+
+.comparison-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.comparison-table th,
+.comparison-table td {
+  padding: 16px 20px;
+  text-align: center;
+  border-bottom: 1px solid #e2e8f0;
+}
+
+.comparison-table th {
+  background: #f8fafc;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.comparison-table th.highlight {
+  background: #2563eb;
+  color: white;
+}
+
+.comparison-table td.highlight {
+  background: #eff6ff;
+}
+
+.feature-name {
+  text-align: left;
+  font-weight: 500;
+  color: #475569;
+}
+
+.status-yes {
+  font-size: 1.2rem;
+}
+
+.status-no {
+  font-size: 1.2rem;
+}
+
+.status-partial {
+  font-size: 1.2rem;
+}
+
+.comparison-tagline {
+  font-size: 1.2rem;
+  color: #64748b;
+  margin-top: 32px;
+}
+
+.comparison-tagline strong {
+  color: #2563eb;
+}
+
+@media (max-width: 768px) {
+  .comparison {
+    padding: 60px 20px;
+  }
+
+  .comparison h2 {
+    font-size: 1.5rem;
+  }
+
+  .comparison-table th,
+  .comparison-table td {
+    padding: 12px 10px;
+    font-size: 0.9rem;
+  }
+}

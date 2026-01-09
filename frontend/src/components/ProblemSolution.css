@@ -1,0 +1,78 @@
+.problem-solution {
+  padding: 80px 20px;
+  background: #f8fafc;
+}
+
+.problem-solution .container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+}
+
+.problem-section,
+.solution-section {
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.problem-section h2,
+.solution-section h2 {
+  font-size: 1.5rem;
+  margin-bottom: 24px;
+  color: #1e293b;
+}
+
+.problem-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.problem-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 0;
+  font-size: 1.05rem;
+  color: #475569;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.problem-item:last-child {
+  border-bottom: none;
+}
+
+.problem-icon {
+  font-size: 1.2rem;
+}
+
+.solution-text {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #475569;
+}
+
+.solution-text strong {
+  color: #2563eb;
+}
+
+@media (max-width: 768px) {
+  .problem-solution .container {
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  .problem-section,
+  .solution-section {
+    padding: 24px;
+  }
+
+  .problem-section h2,
+  .solution-section h2 {
+    font-size: 1.25rem;
+  }
+}

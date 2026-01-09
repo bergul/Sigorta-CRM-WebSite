@@ -1,0 +1,10 @@
+export { default as Hero } from './Hero';
+export { default as ProblemSolution } from './ProblemSolution';
+export { default as Benefits } from './Benefits';
+export { default as HowItWorks } from './HowItWorks';
+export { default as Modules } from './Modules';
+export { default as Comparison } from './Comparison';
+export { default as TargetAudience } from './TargetAudience';
+export { default as Trust } from './Trust';
+export { default as DemoForm } from './DemoForm';
+export { default as Footer } from './Footer';
