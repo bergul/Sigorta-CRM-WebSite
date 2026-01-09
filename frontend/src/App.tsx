@@ -1,8 +1,6 @@
 import React, { useRef } from 'react';
 import {
   Hero,
-  ProblemSolution,
-  Benefits,
   HowItWorks,
   Modules,
   Comparison,
@@ -23,8 +21,6 @@ function App() {
   return (
     <div className="App">
       <Hero onCtaClick={scrollToDemo} />
-      <ProblemSolution />
-      <Benefits />
       <HowItWorks />
       <Modules onCtaClick={scrollToDemo} />
       <Comparison />
