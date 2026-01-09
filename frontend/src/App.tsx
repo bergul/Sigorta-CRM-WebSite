@@ -26,7 +26,7 @@ function App() {
       <ProblemSolution />
       <Benefits />
       <HowItWorks />
-      <Modules />
+      <Modules onCtaClick={scrollToDemo} />
       <Comparison />
       <TargetAudience />
       <Trust />
