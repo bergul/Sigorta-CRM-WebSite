@@ -13,6 +13,7 @@ interface DemoFormProps {
 }
 
 const DemoForm: React.FC<DemoFormProps> = ({ id }) => {
+  const apiBaseUrl = process.env.REACT_APP_API_BASE_URL || 'http://localhost:3002';
   const [formData, setFormData] = useState<FormData>({
     adSoyad: '',
     acenteAdi: '',
@@ -32,7 +33,7 @@ const DemoForm: React.FC<DemoFormProps> = ({ id }) => {
     setStatus('loading');
 
     try {
-      const response = await fetch(process.env.REACT_APP_API_URL || 'http://localhost:3001/api/demo-request', {
+      const response = await fetch(`${apiBaseUrl}/api/demo-request`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
