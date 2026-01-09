@@ -107,7 +107,7 @@ const Modules: React.FC<ModulesProps> = ({ onCtaClick }) => {
         </div>
         <div className="modules-closing">
           <p className="closing-statement">
-            Sigorta CRM bir yazılım değil,<br />
+            <span className="closing-line">Sigorta CRM bir yazılım değil,</span>
             <strong>acente için hazırlanmış bir satış ekranıdır.</strong>
           </p>
           <button className="cta-button" onClick={onCtaClick}>

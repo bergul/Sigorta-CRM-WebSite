@@ -143,6 +143,10 @@
   line-height: 1.6;
 }
 
+.closing-statement .closing-line {
+  display: block;
+}
+
 .closing-statement strong {
   color: #2563eb;
 }
